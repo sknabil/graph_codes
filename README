@@ -1,0 +1,10 @@
+1. To compile, put the source, makefile, input file in the same directory. Rename the source as rejection.cpp
+
+2. In terminal, go to the director and write following to compile the code.
+
+make all
+
+3. After the executable created, go the directory and run following:
+./rejection fb_10.txt 4 0
+
+here fb_10.txt is the input file, 4 is the number of threads and 0/1 is for enabling or disabling rejection.
